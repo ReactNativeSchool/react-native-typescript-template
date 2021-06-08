@@ -1,0 +1,72 @@
+{
+  "name": "RNSTypeScriptTemplate",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write '**/*.js'"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "react": "17.0.1",
+    "react-native": "0.64.1",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@testing-library/jest-native": "^4.0.1",
+    "@testing-library/react-hooks": "^7.0.0",
+    "@testing-library/react-native": "^7.2.0",
+    "@types/jest": "^26.0.23",
+    "@types/react-native": "^0.64.5",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.28.0",
+    "eslint-config-handlebarlabs": "^0.0.6",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "prettier": "^2.3.1",
+    "react-test-renderer": "17.0.1",
+    "ts-jest": "^27.0.3",
+    "typescript": "^3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-native/extend-expect"
+    ]
+  },
+  "homepage": "https://github.com/ReactNativeSchool/react-native-typescript-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReactNativeSchool/react-native-typescript-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ReactNativeSchool/react-native-typescript-template/issues"
+  },
+  "author": "Spencer Carli",
+  "license": "MIT"
+}
