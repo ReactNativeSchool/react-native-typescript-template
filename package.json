@@ -1,7 +1,7 @@
 {
-  "name": "rnstypescripttemplate",
-  "version": "0.0.1",
-  "private": true,
+  "name": "@react-native-school/react-native-typescript-template",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -58,5 +58,15 @@
     "setupFilesAfterEnv": [
       "@testing-library/jest-native/extend-expect"
     ]
-  }
+  },
+  "homepage": "https://github.com/ReactNativeSchool/react-native-typescript-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReactNativeSchool/react-native-typescript-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ReactNativeSchool/react-native-typescript-template/issues"
+  },
+  "author": "Spencer Carli",
+  "license": "MIT"
 }
