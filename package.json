@@ -1,6 +1,6 @@
 {
   "name": "@react-native-school/react-native-typescript-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple React Native template with testing, navigation, and code formatting setup. Written in TypeScript.",
   "author": "Spencer Carli",
   "license": "MIT",
